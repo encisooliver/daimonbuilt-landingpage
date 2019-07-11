@@ -124,12 +124,9 @@
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
-    /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg"); */
-    /* background: linear-gradient(0deg,#fbd76f,#fce08f,#fbd76f); */
-    /* background-color: #FFD700 ; */
+    min-height: 51rem;
+    padding: 1rem 0;
+    background: url("../../assets/images/bg-image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -178,10 +175,15 @@
   }
 
   .projects-section {
-    padding: 7rem 0;
+    padding: 13rem 0 10rem 0;
+    background-color: #fff;
   }
   .projects-section .featured-text {
     padding: 2rem;
+  }
+
+  .projects-section .dimension {
+    padding: 10rem;
   }
   
   @media (min-width: 992px) {
@@ -208,13 +210,17 @@
   }
 
   .contact-section {
-    padding: 1rem 10rem 3rem 0rem;
+    padding: 10rem 10rem 3rem 0rem;
     /* background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
   }
 
-  footer {
-    padding: 5rem 0;
-    
-}
+  .mat-tab-group {
+    padding: 30px;
+  }
+
+  .blue {
+    background-color: #64a19d;
+    border-radius: 5px;
+  }
 

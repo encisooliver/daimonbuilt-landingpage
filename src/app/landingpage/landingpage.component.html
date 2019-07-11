@@ -1,52 +1,43 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="../../assets/logo2.png" style="height: 40px;width: 350px;" alt=""></a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" [ngx-scroll-to]="'#about'">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" [ngx-scroll-to]="'#projects'">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" [ngx-scroll-to]="'#contact'">Contact</a>
-        </li>
-      </ul>
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" routerLink="/"><img src="../../assets/logo2.png" style="height: 40px;width: 350px;" alt=""></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" [ngx-scroll-to]="'#about'">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" [ngx-scroll-to]="'#projects'">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" [ngx-scroll-to]="'#contact'">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 <!-- Header -->
 <header class="masthead background-gold">
-  <div class="container d-flex h-100 align-items-center">
-    <div class="mx-auto text-center">
-      <h1 class="mx-auto my-0 text-uppercase">DIAMONDBUILT DEVELOPMENT</h1>
-      <h1 class="mx-auto my-0 text-uppercase">CORPORATION</h1>
-      <br>
-      <h3 class="text-white-50 mx-auto mt-2 mb-5">Unit F, 3rd Floor B&F Paray Bldg., Capitol, Cebu City</h3>
-      <a [ngx-scroll-to]="'#about'" class="btn btn-primary text-white">Get Started</a>
-    </div>
-  </div>
 </header>
 
 <!-- About Section -->
-<section id="about" class="about-section text-center background-gold animated fadeInRight">
+<section id="about" class="about-section text-center background-gold">
   <div class="container">
     <div class="row">
       <div class="col-lg-1 mx-auto"></div>
       <div class="col-lg-10 mx-auto">
         <br>
         <br>
-        <h2 class="text-black mb-4">COMPANY PROFILE</h2>
+        <h2 class="text-black mb-4">About Us</h2>
         <p>Diamondbuilt Development Corporation is a newly established
           company that is dedicated to provide individuals, families, and
           investors with high quality commercial and residential
           properties. We strongly believe in upholding exceptional
-          service to our clients. <br>
+          service to our clients. <br> <br>
           Diamondbuilt was founded by Ms. Ivy Jocel N. Balsa in 2018.
           Imperial Heights is our flagship subdivision with 122 units and
           commercial spaces located in Binaliw, Cebu City and soon will
@@ -57,7 +48,7 @@
             Our projects at Diamondbuilt Development Corporation is to develop and deliver a comfortable living environment across the entire nation and become one of the most reputable and valuable real estate developers in the country with integrity and accountability using both proven and innovative methods.
         </p>
         <div class="featured-text w-100 my-auto text-center text-lg-left">
-            <h2 class="text-black mb-4">Vission</h2>
+            <h2 class="text-black mb-4">Vision</h2>
             <p class="mb-0 text-white-50">Our vision is to deliver a high quality Residential and
               Commercial projects that correlate with Global developers. <br>
               We intend to achieve this vision in the context of our core
@@ -82,97 +73,66 @@
 </section>
 
   <!-- projects Section -->
-  <section id="projects" class="projects-section bg-light background-gold">
+  <section id="projects" class="projects-section bg-light">
     <div class="container">
         <h2 class="text-black-50">Projects</h2> <hr>
-      <!-- Featured projects Row -->
-      <div class="row align-items-center no-gutters">
-        <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="../../assets/images/details.png" alt="">
-        </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left">
-            <h4>Detail</h4>
-            <p class="text-black-50 mb-0">Total area: 13,076 sqm. <br>
-                Number of units: 122 units <br>
-                Location: Mansawa Binaliw, Cebu City
-            </p>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <!-- projects Two Row -->
-      <div class="row justify-content-center no-gutters projects-2" >
-        <div class="col-lg-6">
-          <img class="img-fluid" src="../../assets/images/ci.png" alt="">
-        </div>
-        <div class="col-lg-6">
-            <img class="img-fluid" src="../../assets/images/cp.png" alt="">
-        </div>
-        
-      </div>
-      <hr>
       <div class="row justify-content-center no-gutters projects-2">
         <div class="col-lg-6">
-          <img class="img-fluid" src="../../assets/images/ghouse.png" alt="">
+          <img class="img-fluid" src="../../assets/ghouse-projects.png" alt=""  routerLink="/projects" [ngx-scroll-to]="'#project'">
         </div>
         <div class="col-lg-6">
-          <img class="img-fluid" src="../../assets/images/playground.png" alt="">
+         
         </div>
       </div>
       <hr>
-       <!-- projects One Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 projects-1">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
-          <img class="img-fluid" src="../../assets/images/map.png" alt="">
-        </div>
-        <div class="col-lg-2"></div>
-      </div>
-      <hr>
-    </div>
-  </section>
-
-  <!-- About Section -->
-<section id="contact" class="contact-section background-gold projects-3">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2 class="text-black mb-4">Contact Us</h2>
-                <p class="mb-0 text-white-50">For more information about projects, please contact</p> <br>
-                <p class="mb-0 text-white-50">Gabriel Curiba / Marketing Head</p>
-                <ul>
-                  <li>0943 310 2682</li>
-                  <li>0915 873 6360</li>
-                </ul>
-                <p class="mb-0 text-white-50">Landline Office </p>
-                <ul>
-                  <li>(032)4790305 </li>
-                </ul>
-                <p class="mb-0 text-white-50">Office phone number</p>
-                <ul>
-                  <li>09950915505 / 09398587206</li>
-                </ul>
-                <p class="mb-0 text-white-50">Accounting
-                  </p>
-                <ul>
-                  <li>09273743294 / 09297954014 </li>
-                </ul>
-          <hr>        
-        </div>
-      </div>
-    </div>
       
-  </section>
-  
- 
-
-<!-- Footer -->
-<footer class="bg-black small text-center text-white-50 background-gold">
-    <div class="container">
-      Copyright &copy; DIAMONDBUILT DEVELOPMENT CORPORATION 2019
     </div>
-  </footer>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section background-gold">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2"></div>
+              <div class="col-md-10">
+                  <ul id="tabsJustified" class="nav nav-tabs">
+                      <li class="nav-item blue"><a class="nav-link small text-uppercase" (click)="onSelect('cebu')">Cebu</a></li>
+                  </ul>
+                  <br>
+                  <div class="tab-content">
+                    <div id="cebubranch"  class="tab-pane fade active show">
+                          <div class="row pb-2">
+                            <div class="col-md-5">
+                              <h5 class="text-black mb-4">Contact Us</h5>
+                              <p class="mb-0 text-white-50">For more information about projects, please contact</p>
+                              <p class="mb-0 text-white-50">Gabriel Curiba / Marketing Head</p>
+                              <ul>
+                                <li>0943 310 2682</li>
+                                <li>0915 873 6360</li>
+                              </ul>
+                              <p class="mb-0 text-white-50">Landline Office </p>
+                              <ul>
+                                <li>(032)4790305 </li>
+                              </ul>
+                              <p class="mb-0 text-white-50">Office phone number</p>
+                              <ul>
+                                <li>09950915505 / 09398587206</li>
+                              </ul>
+                              <p class="mb-0 text-white-50">Accounting</p>
+                              <ul>
+                                <li>09273743294 / 09297954014 </li>
+                              </ul>
+                            </div>
+                            <div class="col-md-7"><img src="../../assets/images/office-map.png" class="float-right img-fluid img-rounded"></div>
+                          </div>
+                    </div>
+                  </div>
+              </div>
+
+        </div>  
+    </div>
+</section>
+
 
 
   
