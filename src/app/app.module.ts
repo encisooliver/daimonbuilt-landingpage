@@ -6,7 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTabsModule } from '@angular/material/tabs';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     AppRoutingModule,
     BrowserModule,
     RouterModule.forRoot([]),
-    BrowserAnimationsModule,
+    BrowserAnimationsModule
+    
+ 
   ],
   providers: [
 

@@ -9,6 +9,8 @@ import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { ProjectsComponent } from './projects/projects.component';
 import { LayoutComponent } from './layout/layout.component';
 
+
+
 @NgModule({
   declarations: [ 
     LandingpageComponent,
@@ -19,6 +21,7 @@ import { LayoutComponent } from './layout/layout.component';
     ScrollToModule.forRoot(),
     CommonModule,
     LandingpageRoutingModule,
+    
   ]
 })
 export class LandingpageModule { }

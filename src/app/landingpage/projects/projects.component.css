@@ -6,6 +6,12 @@ a {
     padding: 7rem;
     background-color: #fff;
   }
+
+  .img-project {
+    width: 110px;
+  }
+  
+  
   .projects .featured-text {
     padding: 2rem;
   }
