@@ -1,0 +1,129 @@
+.background-block {
+    background-color: #0d0d0d;
+  }
+  
+  #mainNav {
+    min-height: 56px;
+    background-color: #0d0d0d !important;
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.75rem;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+  
+  #mainNav .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  #mainNav .navbar-brand {
+    color: #161616;
+    font-weight: 700;
+    padding: .9rem 0;
+  }
+  
+  #mainNav .navbar-nav .nav-item:hover {
+    color: fade(white, 80%);
+    outline: none;
+    /* background-color: transparent; */
+  }
+  
+  #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    /* background-color: transparent; */
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+      background-color: transparent;
+      -webkit-transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out;
+    }
+  
+   
+    
+    #mainNav .nav-link {
+      -webkit-transition: none;
+      transition: none;
+      padding: 2rem 1.5rem;
+      color: #0d0d0d;
+    }
+    
+    #mainNav .nav-link:hover {
+      color: #0d0d0d;
+    }
+    #mainNav .nav-link:active {
+      color:  #0d0d0d;
+    }
+    #mainNav .navbar-shrink {
+      background-color: #0d0d0d;
+    }
+   
+    #mainNav.navbar-shrink .nav-link {
+      color: #161616;
+      padding: 1.5rem 1.5rem 1.25rem;
+      border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+      color: #fff;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+      color: #467370;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+      color: #fff;
+      outline: none;
+      border-bottom: 0.25rem solid #fff;
+    }
+  }
+  
+  a {
+    padding-top: 16px;
+  }
+  
+  .projects {
+      padding: 7rem;
+      background-color:#0d0d0d;
+    }
+  
+    .img-project {
+      width: 250px;
+    }
+    
+    
+    .projects .featured-text {
+      padding: 2rem;
+    }
+  
+    .projects .dimension {
+      padding: 10rem;
+    }
+    
+    @media (min-width: 992px) {
+      .projects .featured-text {
+        padding: 0 0 0 2rem;
+        border-left: 0.5rem solid #fff;
+      }
+    }
+    
+    .projects .project-text {
+      padding: 3rem;
+      font-size: 90%;
+    }
+    
+    @media (min-width: 992px) {
+      .projects .project-text {
+        padding: 5rem;
+      }
+      .projects .project-text hr {
+        border-color: #fff;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+   

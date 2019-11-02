@@ -6,8 +6,9 @@ import { LandingpageRoutingModule } from './landingpage-routing.module';
 import { LandingpageComponent } from './landingpage.component';
 
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
-import { ProjectsComponent } from './projects/projects.component';
+import { ProjectsComponent } from './project/projects/projects.component';
 import { LayoutComponent } from './layout/layout.component';
+import { ResordAndResidencesComponent } from './project/resord-and-residences/resord-and-residences.component';
 
 
 
@@ -15,7 +16,7 @@ import { LayoutComponent } from './layout/layout.component';
   declarations: [ 
     LandingpageComponent,
      ProjectsComponent, 
-     LayoutComponent 
+     LayoutComponent, ResordAndResidencesComponent 
   ],
   imports: [
     ScrollToModule.forRoot(),

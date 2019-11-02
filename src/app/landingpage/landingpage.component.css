@@ -5,7 +5,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff !important;
+  background-color: #212529 !important;
 }
 
 #mainNav .navbar-toggler {
@@ -45,21 +45,19 @@
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
-
- 
   
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
     padding: 2rem 1.5rem;
-    color: #9f0d31;
+    color: #fff;;
   }
   
   #mainNav .nav-link:hover {
-    color: #a55d6f;
+    color: #fff;
   }
   #mainNav .nav-link:active {
-    color: #a55d6f;
+    color:  #fff;
   }
   #mainNav .navbar-shrink {
     background-color: #fff;
@@ -82,37 +80,18 @@
     border-bottom: 0.25rem solid #64a19d;
   }
 }
-/* @media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-     background: #1C2331!important;
-  }
-} */
-/* Navbar animation */
-
-
-  
-/*
-.top-nav-collapse {
-  background-color: #1C2331; } */
-
-/* Adding color to the Navbar on mobile */
-/* @media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #1C2331; } } */
-
-/* Footer color for sake of consistency with Navbar */
-
 
   #mainNav .nav-link {
     -webkit-transition: none;
     transition: none;
-    color: #a55d6f;
+    color: #fff;
+    cursor: pointer;
   }
   #mainNav .nav-link:hover {
-    color: #a55d6f;
+    color: #fff;
   }
   #mainNav .nav-link:active {
-    color: #9f0d31;
+    color: #fff;
   }
 
   .btn {
@@ -124,9 +103,9 @@
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 48rem;
+    min-height: 52rem;
     padding: 8rem 0;
-    background: url("../../assets/images/bg-image-opacity.png");
+    background: url("../../assets/new-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -181,36 +160,82 @@
     text-align: justify;
   }
 
-  .projects-section {
-    padding: 6rem 0 10rem 0;
-    background-color: #fff;
+  .projects-section-imperialhights  {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 52rem;
+    padding: 8rem 0;
+    background: url("../../assets/images/imperialhights.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
   }
-  .projects-section .featured-text {
+
+  .projects-section-resortandresidence {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 52rem;
+    padding: 8rem 0;
+    background: url("../../assets/images/resortandresidence/resortandresidences.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .btnProject {
+      margin-top: 20rem;
+      background: -webkit-linear-gradient(0deg,#fad35f,#fde8aa,#fad35f);
+      padding: .375rem .75rem;
+      box-shadow: 2px 2px;
+      display: inline-block;
+      font-size: 1rem;
+      border-radius: .25rem;
+      border: 1px solid transparent;
+      width: 150px;
+      height: 60px;
+      padding-top: 10px;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btnProject::after {
+  background-color: transparent;
+}
+
+.button:after {
+  background-color: transparent;
+  box-shadow: 2px 2px;
+
+}
+  .projects-section-imperialhights  .featured-text {
     padding: 2rem;
   }
 
-  .projects-section .dimension {
+  .projects-section-imperialhights  .dimension {
     padding: 10rem;
   }
   
  
   @media (min-width: 992px) {
-    .projects-section .featured-text {
+    .projects-section-imperialhights  .featured-text {
       padding: 0 0 0 2rem;
       border-left: 0.5rem solid #64a19d;
     }
   }
   
-  .projects-section .project-text {
+  .projects-section-imperialhights  .project-text {
     padding: 3rem;
     font-size: 90%;
   }
   
   @media (min-width: 992px) {
-    .projects-section .project-text {
+    .projects-section-imperialhights  .project-text {
       padding: 5rem;
     }
-    .projects-section .project-text hr {
+    .projects-section-imperialhights  .project-text hr {
       border-color: #64a19d;
       border-width: .25rem;
       width: 30%;
@@ -218,17 +243,37 @@
   }
 
   .contact-section {
-    padding: 10rem 10rem 3rem 0rem;
+    padding: 10rem 10rem 8rem 0rem;
     /* background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
   }
 
-  .mat-tab-group {
-    padding: 30px;
+  .contactList {
+    list-style: none;
+    margin-left: -40px;
+    font-size: .9rem;
   }
 
-  .blue {
-    background-color: #64a19d;
-    border-radius: 5px;
+  .companyname {
+    font-size: .9rem;
+    margin-bottom: -10px;
   }
+
+  .phone {
+    width: 12px;
+    padding-bottom: 2px;
+  }
+
+  .contactmap {
+    width: 100%;
+    height: 95%;
+  }
+.contact-header { 
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",
+  Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1.2rem;
+  margin-bottom: -5px;
+  padding-bottom: 0;
+}
+ 
 

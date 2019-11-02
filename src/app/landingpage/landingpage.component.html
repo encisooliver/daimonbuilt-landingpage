@@ -40,15 +40,15 @@
         <br>
         <br>
         <h2 class="text-black mb-4">About Us</h2>
-        <p> <b>Diamondbuilt Development Corporation</b>  is a real estate company based in Cebu City and was founded by <b>Ivy Jocel Balsa</b> who is a business graduate at the University of San Carlos. The name Diamonbuilt is inspired by her perspective of the company, it means unbeatable, long-lasting, classy and a symbol of success.  <br> <br>
-          <b>Diamondbuilt Development Corporation</b>is established in 2018 and continues to operate based on the principle of providing high quality commercial and residential properties to individuals, families, and investors. DBDC strongly believes in upholding exceptional service to the customers from their reservation to finally having their dream place they wish to keep for life.</p>
+        <p><b>Diamondbuilt Development Corporation</b> is a real estate company based in Cebu City and was founded by a businesswoman who is a business graduate at the University of San Carlos. The name Diamondbuilt is inspired by her perspective of the company, it means unbeatable, long-lasting, classy and a symbol of success. <br><br>
+        <b>Diamondbuilt Development Corporation</b> is established in 2018 and continues to operate based on the principle of providing high quality commercial and residential properties to individuals, families, and investors. DBDC strongly believes in upholding exceptional service to the customers from their reservation to finally having their dream place they wish to keep for life.</p>
         <h2 class="text-black mb-4">Mission</h2>
         <p>
             Our projects at Diamondbuilt Development Corporation is to develop and deliver a comfortable living environment across the entire nation and become one of the most reputable and valuable real estate developers in the country with integrity and accountability using both proven and innovative methods.
         </p>
         <div class="featured-text w-100 my-auto text-center text-lg-left">
             <h2 class="text-black mb-4">Vision</h2>
-            <p class="mb-0 text-white-50">Our vision is to deliver a high quality Residential and
+            <p class="mb-0 text-black">Our vision is to deliver a high quality Residential and
               Commercial projects that correlate with Global developers. <br>
               We intend to achieve this vision in the context of our core
               values.
@@ -68,20 +68,21 @@
 </section>
 
   <!-- projects Section -->
-  <section id="projects" class="projects-section bg-light">
+  <section id="projects" class="projects-section-imperialhights bg-light">
     <div class="container">
-        <h2 class="text-black-50">Projects</h2> <hr>
-      <div class="row justify-content-center no-gutters projects-2">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-8">
-          <img class="img-fluid" src="../../assets/images/project-dm.png" alt=""  routerLink="/projects" [ngx-scroll-to]="'#project'">
+        <div class="mx-auto text-center">
+            <button class="btnProject"   routerLink="/projects" [ngx-scroll-to]="'#project'">More Info</button>
         </div>
-        <div class="col-lg-2"></div>
-      </div>
-      <hr>
-      
     </div>
   </section>
+  <!-- projects Section -->
+  <section id="resortandresidence" class="projects-section-resortandresidence bg-light">
+      <div class="container">
+          <div class="mx-auto text-center">
+              <button class="btnProject"   routerLink="/resorts-and-residences" [ngx-scroll-to]="'#project'">More Info</button>
+          </div>
+      </div>
+    </section>
 
   <!-- Contact Section -->
   <section id="contact" class="contact-section background-gold">
@@ -89,35 +90,35 @@
         <div class="row">
             <div class="col-lg-2"></div>
               <div class="col-md-10">
-                  <ul id="tabsJustified" class="nav nav-tabs">
-                      <!-- <li class="nav-item blue"><a class="nav-link small text-uppercase" (click)="onSelect('cebu')">Cebu</a></li> -->
-                  </ul>
-                  <br>
                   <div class="tab-content">
                     <div id="cebubranch"  class="tab-pane fade active show">
-                          <div class="row pb-2">
+                          <div class="row">
                             <div class="col-md-5">
-                              <h5 class="text-black mb-4">Contact Us</h5>
-                              <p class="mb-0 text-white-50">For more information about projects, please contact</p>
-                              <p class="mb-0 text-white-50">Gabriel Curiba / Marketing Head</p>
-                              <ul>
-                                <li>0943 310 2682</li>
+                              <p class="contact-header">For more information about projects, please contact</p>
+                              <br>
+                              <p class="companyname">Diamondbuilt Development Corporation Unit F, 3rd Floor B&F Paray Bldg., Capitol, Cebu City</p>
+                                  <br>
+                              <ul class="contactList">
+                                <li>Marketing Head</li>
+                                <li><img class="phone" src="../../assets/icon/phone.png" alt="">
+                                  0943 310 2682</li>
                                 <li>0915 873 6360</li>
                               </ul>
-                              <p class="mb-0 text-white-50">Landline Office </p>
-                              <ul>
-                                <li>(032)4790305 </li>
+                              <ul class="contactList">
+                                <li>Landline Office</li>
+                                <li><img class="phone" src="../../assets/icon/phone.png" alt="">
+                                  (032)4790305</li>
                               </ul>
-                              <p class="mb-0 text-white-50">Office phone number</p>
-                              <ul>
-                                <li>09950915505 / 09398587206</li>
+                              <ul class="contactList">
+                                <li>Office phone number</li>
+                                <li><img class="phone" src="../../assets/icon/phone.png" alt="">09950915505 / 09398587206</li>
                               </ul>
-                              <p class="mb-0 text-white-50">Accounting</p>
-                              <ul>
-                                <li>09273743294 / 09297954014 </li>
+                              <ul class="contactList">
+                                <li>Accounting</li>
+                                <li><img class="phone" src="../../assets/icon/phone.png" alt=""> 09273743294 / 09297954014</li>
                               </ul>
                             </div>
-                            <div class="col-md-7"><img src="../../assets/images/office-map.png" class="float-right img-fluid img-rounded"></div>
+                            <div class="col-md-7"><img src="../../assets/images/office-map.png" class="contactmap float-right img-fluid img-rounded"></div>
                           </div>
                     </div>
                   </div>
