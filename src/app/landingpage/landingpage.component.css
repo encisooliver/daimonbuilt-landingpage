@@ -5,7 +5,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #212529 !important;
+  background-color:  #0d0d0d !important;
 }
 
 #mainNav .navbar-toggler {
@@ -20,7 +20,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #0d0d0d;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -64,7 +64,7 @@
   }
  
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #0d0d0d;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -124,7 +124,7 @@
     max-width: 50rem !important;
     font-size: 5rem;
     font-family: "Raph Lanok Future";
-    color: #161616;
+    color: #0d0d0d;
   }
 
   .diamonbuilt-logo {
@@ -164,9 +164,9 @@
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 52rem;
+    min-height: 60rem;
     padding: 8rem 0;
-    background: url("../../assets/images/imperialhights.png");
+    background: url("../../assets/images/project/imperialhights.png");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -177,7 +177,7 @@
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 52rem;
+    min-height: 60rem;
     padding: 8rem 0;
     background: url("../../assets/images/resortandresidence/resortandresidences.png");
     background-position: center;
@@ -195,32 +195,29 @@
       font-size: 1rem;
       border-radius: .25rem;
       border: 1px solid transparent;
-      width: 150px;
-      height: 60px;
+      width: 180px;
+      height: 65px;
       padding-top: 10px;
-      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      transition: all ease 0.3s;
 }
 
-.btnProject::after {
+.btnProject:active {
   background-color: transparent;
+  box-shadow: 2px 5px #0d0d0d;
+  border: none;
 }
 
-.button:after {
-  background-color: transparent;
-  box-shadow: 2px 2px;
-
-}
-  .projects-section-imperialhights  .featured-text {
+  .projects-section-imperialhights .featured-text {
     padding: 2rem;
   }
 
-  .projects-section-imperialhights  .dimension {
+  .projects-section-imperialhights .dimension {
     padding: 10rem;
   }
   
  
   @media (min-width: 992px) {
-    .projects-section-imperialhights  .featured-text {
+    .projects-section-imperialhights .featured-text {
       padding: 0 0 0 2rem;
       border-left: 0.5rem solid #64a19d;
     }
@@ -243,7 +240,8 @@
   }
 
   .contact-section {
-    padding: 10rem 10rem 8rem 0rem;
+    padding: 12rem 10rem 5rem 0rem;
+    min-height: 50rem;
     /* background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%); */
   }

@@ -9,16 +9,7 @@ export class LandingpageComponent implements OnInit {
 
   constructor() { }
 
-  public selectedTab: string;
-
-  public onSelect(): void {
-    this.selectedTab = "cebu";
-  };
-
   ngOnInit() {
   }
-
-
-
 
 }
