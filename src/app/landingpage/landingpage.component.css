@@ -185,6 +185,18 @@
     background-attachment: scroll;
     background-size: cover;
   }
+  .projects-section-bonheurdelaville {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 60rem;
+    padding: 8rem 0;
+    background: url("../../assets/images/bonheurdelaville/ENTRANCE 2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
 
   .btnProject {
       margin-top: 20rem;

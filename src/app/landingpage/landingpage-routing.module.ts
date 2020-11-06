@@ -5,14 +5,16 @@ import { LandingpageComponent } from './landingpage.component';
 import { ProjectsComponent } from './project/projects/projects.component';
 import { LayoutComponent } from './layout/layout.component';
 import { ResordAndResidencesComponent } from './project/resord-and-residences/resord-and-residences.component';
-
+import { BonHeurDeLaVilleComponent } from './project/bon-heur-de-la-ville/bon-heur-de-la-ville.component';
+ 
 const routes: Routes = [
   {
     path: '', component: LayoutComponent,
     children: [
       { path: '', component: LandingpageComponent },
       { path: 'projects', component: ProjectsComponent },
-      { path: 'resorts-and-residences', component: ResordAndResidencesComponent }
+      { path: 'resorts-and-residences', component: ResordAndResidencesComponent },
+      {path: 'bon-huer-de-la-ville', component: BonHeurDeLaVilleComponent}
     ]
   }
 ];
